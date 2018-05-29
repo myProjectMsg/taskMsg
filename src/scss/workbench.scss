@@ -1,0 +1,49 @@
+.globalPage{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  .catalogArea{
+    height:100%;
+    width:260px;
+  }
+  .contentArea{
+    position: absolute;
+    top:0;
+    left:260px;
+    right:0;
+    bottom:0;
+    z-index: 1;
+  }
+}
+.active{
+  background: rgba(0,0,0,.2);
+}
+.catalog{
+  >ul{
+    >li{
+      >a{
+        display: block;
+        color:#fff;
+        font-weight: 600;
+        padding:8px 20px;
+        &:hover{
+          background: rgba(0,0,0,.2);
+        }
+      }
+    }
+  }
+}
+.twoColumnContainer{
+  height:100%;
+  padding:10px;
+  @include eleSize;
+}
+.AddInputList{
+  margin:5px 0;
+  >li{
+    border-bottom:1px solid nth($fontColor,3);
+    line-height: 32px;
+  }
+}

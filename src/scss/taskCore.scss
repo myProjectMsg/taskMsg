@@ -1,0 +1,61 @@
+.taskCore{
+  width:100%;
+  height:100%;
+  .dateNav{
+    height:100%;
+    float:left;
+    width: 280px;
+  }
+  .taskShowArea{
+    height:100%;
+    margin-left:280px;
+  }
+}
+.dateNav{
+  .pageName{
+    background-color:nth($signColor,1);
+    padding:20px;
+    color:#333;
+    font-weight: bold;
+    margin-bottom:8px;
+    >span,a{
+      display: inline-block;
+    }
+    >a{
+      margin-right:16px;
+    }
+  }
+  .taskTypeNav{
+    .taskClassList{
+      >li{
+        >a{
+          display: block;
+          padding:8px 24px;
+          &:hover{
+            background-color: nth($signColor,1)
+          }
+          &.active{
+            background-color: nth($signColor,1)
+          }
+        }
+      }
+    }
+    .divisionLine{
+      margin:8px 16px;
+      height:1px;
+      background-color: #d8d8d8;
+    }
+    .questionTask{
+      >a{
+        display: block;
+        padding:8px 24px;
+        &:hover{
+          background-color: nth($signColor,1)
+        }
+        &.active{
+          background-color: nth($signColor,1)
+        }
+      }
+    }
+  }
+}

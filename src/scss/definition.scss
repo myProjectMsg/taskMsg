@@ -1,0 +1,31 @@
+//config
+$animal-data:(green, #1AB394, #179D82),(blue, #108ee9, #49a9ee);
+$nav-color:(green,#2f4050),(blue,#1AB394);
+
+//fontSize
+$bigFont:14px !default;
+$smallFont:12px;
+
+//fontColor
+$fontColor:#222222 #333333 #767C84 #000000 #3C3C3C;
+
+$headings: (h1: 28px,  h2: 18px, h3: 14px, h4:12px);
+
+//defaultcolor
+$signColor:#D8DFE7 #F7FAFC;
+
+
+
+
+@mixin closeFloat {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+@mixin eleSize{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

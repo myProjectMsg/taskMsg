@@ -1,0 +1,27 @@
+.packing{
+  display: inline-block;
+  margin-right:10px;
+  >input{
+    display: none;
+  }
+  .simulation{
+    display: inline-block;
+    width: 12px;
+    height:12px;
+    border:1px solid nth($fontColor,3);
+    cursor: pointer;
+    &.checkArea{
+      border-radius: 2px;
+    }
+    &.radioArea{
+      border-radius: 50%;
+    }
+    &.markEle{
+      border:1px solid #1AB394;
+    }
+    &.active{
+      background-color: #1AB394;
+      border:1px solid #1AB394;
+    }
+  }
+}

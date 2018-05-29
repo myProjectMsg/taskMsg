@@ -1,0 +1,227 @@
+body, html {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif !important;
+  color: #222222;
+  font-size: 14px; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset,
+legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details,
+figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 28px; }
+
+h2 {
+  font-size: 18px; }
+
+h3 {
+  font-size: 14px; }
+
+h4 {
+  font-size: 12px; }
+
+input, button, select, textarea {
+  outline: none; }
+
+textarea {
+  resize: none; }
+
+.green-color {
+  color: #1AB394; }
+
+.green-color-hover {
+  color: #179D82; }
+
+.green-bg {
+  background-color: #1AB394;
+  color: #fff; }
+
+.blue-color {
+  color: #108ee9; }
+
+.blue-color-hover {
+  color: #49a9ee; }
+
+.blue-bg {
+  background-color: #108ee9;
+  color: #fff; }
+
+.green-bgColor {
+  background-color: #2f4050;
+  color: #fff; }
+
+.blue-bgColor {
+  background-color: #1AB394;
+  color: #fff; }
+
+a,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: #222222; }
+
+ul > li {
+  list-style: none; }
+
+.globalPage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .globalPage .catalogArea {
+    height: 100%;
+    width: 260px; }
+  .globalPage .contentArea {
+    position: absolute;
+    top: 0;
+    left: 260px;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }
+
+.active {
+  background: rgba(0, 0, 0, 0.2); }
+
+.catalog > ul > li > a {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 20px; }
+  .catalog > ul > li > a:hover {
+    background: rgba(0, 0, 0, 0.2); }
+
+.twoColumnContainer {
+  height: 100%;
+  padding: 10px; }
+
+.taskCore {
+  width: 100%;
+  height: 100%; }
+  .taskCore .dateNav {
+    height: 100%;
+    float: left;
+    width: 280px; }
+  .taskCore .taskShowArea {
+    height: 100%;
+    margin-left: 280px; }
+
+.dateNav .pageName {
+  background-color: #D8DFE7;
+  padding: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px; }
+  .dateNav .pageName > span, .dateNav .pageName a {
+    display: inline-block; }
+  .dateNav .pageName > a {
+    margin-right: 16px; }
+.dateNav .taskTypeNav .taskClassList > li > a {
+  display: block;
+  padding: 8px 24px; }
+  .dateNav .taskTypeNav .taskClassList > li > a:hover {
+    background-color: #D8DFE7; }
+  .dateNav .taskTypeNav .taskClassList > li > a.active {
+    background-color: #D8DFE7; }
+.dateNav .taskTypeNav .divisionLine {
+  margin: 8px 16px;
+  height: 1px;
+  background-color: #d8d8d8; }
+.dateNav .taskTypeNav .questionTask > a {
+  display: block;
+  padding: 8px 24px; }
+  .dateNav .taskTypeNav .questionTask > a:hover {
+    background-color: #D8DFE7; }
+  .dateNav .taskTypeNav .questionTask > a.active {
+    background-color: #D8DFE7; }
+
+.myCalendar {
+  position: relative; }
+  .myCalendar .title {
+    padding: 10px 14px; }
+    .myCalendar .title .prev, .myCalendar .title .next {
+      display: block;
+      width: 24px;
+      height: 24px; }
+    .myCalendar .title .prev {
+      float: left; }
+    .myCalendar .title .next {
+      float: right; }
+    .myCalendar .title .yearMonth {
+      text-align: center;
+      margin: 0 24px; }
+      .myCalendar .title .yearMonth > a {
+        display: inline-block; }
+  .myCalendar .calendarData {
+    padding: 14px; }
+    .myCalendar .calendarData .weekList > span {
+      display: block;
+      float: left;
+      width: 14.2%;
+      text-align: center;
+      line-height: 17px;
+      font-size: 12px;
+      color: #767C84; }
+      .myCalendar .calendarData .weekList > span.restDay {
+        color: red; }
+    .myCalendar .calendarData .weekList:after {
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      clear: both; }
+    .myCalendar .calendarData .dayList > li {
+      height: 36px;
+      width: 14.2%;
+      float: left;
+      text-align: center;
+      font-size: 12px;
+      color: #767C84; }
+      .myCalendar .calendarData .dayList > li > a {
+        display: block;
+        line-height: 36px;
+        border-radius: 50%; }
+        .myCalendar .calendarData .dayList > li > a.active {
+          background-color: #1AB394;
+          color: #fff; }
+      .myCalendar .calendarData .dayList > li.restDay > a {
+        color: red; }
+    .myCalendar .calendarData .dayList:after {
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      clear: both; }
+    .myCalendar .calendarData .yearList > li {
+      width: 33.3%;
+      float: left;
+      text-align: center;
+      font-size: 12px;
+      color: #767C84;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .myCalendar .calendarData .yearList > li > a {
+        display: block;
+        line-height: 25px;
+        border-radius: 3px; }
+  .myCalendar .goYear {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+    width: 100%;
+    height: 100%; }
+  .myCalendar .goMonth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 2;
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=taskMain.css.map */

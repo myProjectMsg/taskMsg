@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,kBAAQ;IACN,MAAM,EAAC,IAAI;IACX,KAAK,EAAC,IAAI;IACV,KAAK,EAAE,KAAK;EAEd,uBAAa;IACX,MAAM,EAAC,IAAI;IACX,WAAW,EAAC,KAAK",
+"sources": ["taskCore.scss"],
+"names": [],
+"file": "taskCore.css"
+}
